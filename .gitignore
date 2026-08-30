@@ -1,0 +1,20 @@
+# Third-party data and anything derived from it -- NOT redistributed here.
+# DAIR-V2X is released by its own authors under its own licence; rebuild the
+# geometry pool locally with extract_dair_geometry.py.
+dair_geometry_pool.csv
+*.pkl
+geom_cache/
+
+# Training output
+models/
+results/
+figures/
+*.pt
+*.csv
+*.json
+
+# Working files
+*.bak_*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
